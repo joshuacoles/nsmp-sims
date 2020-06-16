@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.3
+  - pip
+  - pip:
+      - jupyter==1.0.0
+      - numpy==1.18.5
+      - scipy==1.4.1
+      - matplotlib==3.2.1
+
